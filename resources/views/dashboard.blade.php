@@ -382,9 +382,7 @@
 
         document.getElementById('customerCard').hidden = false;
 
-        message.textContent =
-            'Displaying customer ' + (currentIndex + 1) +
-            ' of ' + rentals.length;
+            message.textContent = "";
     }
 
     async function loadRentals() {
