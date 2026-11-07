@@ -1,0 +1,1962 @@
+[
+  {
+    "customer": {
+      "customer_id": "CUS-2026-001",
+      "name": "Jericho",
+      "age": 30,
+      "gender": "Male",
+      "address": "Cebu City, Philippines",
+      "contact_number": "09123456789",
+      "email": "jericho@example.com",
+      "license_number": "N01-26-123456",
+      "license_type": "Non-Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-001",
+      "booking_reference": "MED-2026-001",
+      "rental_type": "Self-Drive",
+      "pickup_location": "Cebu City",
+      "dropoff_location": "Mactan, Cebu",
+      "pickup_date": "2026-11-05 08:00:00",
+      "return_date": "2026-11-08 08:00:00",
+      "rental_duration": 3,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-001",
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "year": 2024,
+      "color": "Pearl White",
+      "plate_number": "ABC-1234",
+      "vehicle_type": "SUV",
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "seating_capacity": 7,
+      "mileage": "15,000 km",
+      "fuel_level": "Full",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 3500,
+      "rental_days": 3,
+      "base_rental_fee": 10500,
+      "insurance_fee": 1000,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 500,
+      "total_amount": 11500,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-001",
+      "payment_method": "GCash",
+      "payment_reference": "GC-123456789",
+      "amount_paid": 11500,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "ABC Insurance",
+      "policy_number": "POL-2026-001",
+      "coverage_type": "Comprehensive",
+      "coverage_amount": 500000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Good",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "Minor scratch on rear bumper",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Mactan, Cebu",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 5,
+      "completed_rentals": 4,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4,
+      "customer_status": "Regular Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-001",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-002",
+      "name": "Maria Santos",
+      "age": 23,
+      "gender": "Female",
+      "address": "Mactan, Cebu, Philippines",
+      "contact_number": "09120013791",
+      "email": "maria.santos@example.com",
+      "license_number": "N01-26-123473",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-002",
+      "booking_reference": "MED-2026-002",
+      "rental_type": "With Driver",
+      "pickup_location": "Mactan, Cebu",
+      "dropoff_location": "Lapu-Lapu City",
+      "pickup_date": "2026-11-06 08:00:00",
+      "return_date": "2026-11-09 08:00:00",
+      "rental_duration": 3,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-002",
+      "brand": "Honda",
+      "model": "City",
+      "year": 2023,
+      "color": "Black",
+      "plate_number": "CEB-2037",
+      "vehicle_type": "Sedan",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 5,
+      "mileage": "16,250 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 1800,
+      "rental_days": 3,
+      "base_rental_fee": 5400,
+      "insurance_fee": 750,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 6450,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-002",
+      "payment_method": "Cash",
+      "payment_reference": "TXN-123457776",
+      "amount_paid": 3225,
+      "remaining_balance": 3225,
+      "payment_status": "Partially Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "XYZ Insurance",
+      "policy_number": "POL-2026-002",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Lapu-Lapu City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 6,
+      "completed_rentals": 5,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.1,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-002",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-003",
+      "name": "John Reyes",
+      "age": 24,
+      "gender": "Male",
+      "address": "Lapu-Lapu City, Philippines",
+      "contact_number": "09120027582",
+      "email": "john.reyes@example.com",
+      "license_number": "N01-26-123490",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-003",
+      "booking_reference": "MED-2026-003",
+      "rental_type": "With Driver",
+      "pickup_location": "Lapu-Lapu City",
+      "dropoff_location": "Mandaue City",
+      "pickup_date": "2026-11-07 08:00:00",
+      "return_date": "2026-11-11 08:00:00",
+      "rental_duration": 4,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-003",
+      "brand": "Mitsubishi",
+      "model": "Montero Sport",
+      "year": 2024,
+      "color": "Gray",
+      "plate_number": "CEB-2074",
+      "vehicle_type": "SUV",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "17,500 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 3200,
+      "rental_days": 4,
+      "base_rental_fee": 12800,
+      "insurance_fee": 1000,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 14300,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-003",
+      "payment_method": "Maya",
+      "payment_reference": "TXN-123458763",
+      "amount_paid": 14300,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "Cebu Auto Insurance",
+      "policy_number": "POL-2026-003",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Mandaue City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 7,
+      "completed_rentals": 6,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.2,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-003",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-004",
+      "name": "Angela Cruz",
+      "age": 25,
+      "gender": "Female",
+      "address": "Mandaue City, Philippines",
+      "contact_number": "09120041373",
+      "email": "angela.cruz@example.com",
+      "license_number": "N01-26-123507",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-004",
+      "booking_reference": "MED-2026-004",
+      "rental_type": "With Driver",
+      "pickup_location": "Mandaue City",
+      "dropoff_location": "Talisay City",
+      "pickup_date": "2026-11-05 08:00:00",
+      "return_date": "2026-11-10 08:00:00",
+      "rental_duration": 5,
+      "rental_status": "Completed",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-004",
+      "brand": "Toyota",
+      "model": "Vios",
+      "year": 2025,
+      "color": "Red",
+      "plate_number": "CEB-2111",
+      "vehicle_type": "Sedan",
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "seating_capacity": 5,
+      "mileage": "18,750 km",
+      "fuel_level": "Full",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 1600,
+      "rental_days": 5,
+      "base_rental_fee": 8000,
+      "insurance_fee": 500,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 8800,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-004",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "TXN-123459750",
+      "amount_paid": 8800,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "ABC Insurance",
+      "policy_number": "POL-2026-004",
+      "coverage_type": "Comprehensive",
+      "coverage_amount": 500000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": "2026-11-10 08:00:00",
+      "return_location": "Talisay City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 8,
+      "completed_rentals": 7,
+      "active_rentals": 0,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.3,
+      "customer_status": "Regular Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-004",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-005",
+      "name": "Mark Dela Rosa",
+      "age": 26,
+      "gender": "Male",
+      "address": "Talisay City, Philippines",
+      "contact_number": "09120055164",
+      "email": "mark.dela.rosa@example.com",
+      "license_number": "N01-26-123524",
+      "license_type": "Non-Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-005",
+      "booking_reference": "MED-2026-005",
+      "rental_type": "Self-Drive",
+      "pickup_location": "Talisay City",
+      "dropoff_location": "Carcar City",
+      "pickup_date": "2026-11-06 08:00:00",
+      "return_date": "2026-11-12 08:00:00",
+      "rental_duration": 6,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-005",
+      "brand": "Ford",
+      "model": "Everest",
+      "year": 2026,
+      "color": "Blue",
+      "plate_number": "CEB-2148",
+      "vehicle_type": "SUV",
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "20,000 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 3800,
+      "rental_days": 6,
+      "base_rental_fee": 22800,
+      "insurance_fee": 750,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 500,
+      "total_amount": 23550,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-005",
+      "payment_method": "GCash",
+      "payment_reference": "TXN-123460737",
+      "amount_paid": 23550,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "XYZ Insurance",
+      "policy_number": "POL-2026-005",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Good",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "Small scratch on door",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Carcar City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 9,
+      "completed_rentals": 8,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.4,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-005",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-006",
+      "name": "Sofia Lim",
+      "age": 27,
+      "gender": "Female",
+      "address": "Carcar City, Philippines",
+      "contact_number": "09120068955",
+      "email": "sofia.lim@example.com",
+      "license_number": "N01-26-123541",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-006",
+      "booking_reference": "MED-2026-006",
+      "rental_type": "With Driver",
+      "pickup_location": "Carcar City",
+      "dropoff_location": "Danao City",
+      "pickup_date": "2026-11-07 08:00:00",
+      "return_date": "2026-11-09 08:00:00",
+      "rental_duration": 2,
+      "rental_status": "Cancelled",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-006",
+      "brand": "Suzuki",
+      "model": "Ertiga",
+      "year": 2022,
+      "color": "Silver",
+      "plate_number": "CEB-2185",
+      "vehicle_type": "MPV",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "21,250 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2300,
+      "rental_days": 2,
+      "base_rental_fee": 4600,
+      "insurance_fee": 1000,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 5900,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-006",
+      "payment_method": "Cash",
+      "payment_reference": "TXN-123461724",
+      "amount_paid": 0,
+      "remaining_balance": 5900,
+      "payment_status": "Unpaid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "Cebu Auto Insurance",
+      "policy_number": "POL-2026-006",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Danao City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Cancelled"
+    },
+    "rental_summary": {
+      "total_rentals": 10,
+      "completed_rentals": 9,
+      "active_rentals": 0,
+      "cancelled_rentals": 1,
+      "customer_rating": 4.5,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-006",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Inactive"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-007",
+      "name": "Carlos Mendoza",
+      "age": 28,
+      "gender": "Male",
+      "address": "Danao City, Philippines",
+      "contact_number": "09120082746",
+      "email": "carlos.mendoza@example.com",
+      "license_number": "N01-26-123558",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-007",
+      "booking_reference": "MED-2026-007",
+      "rental_type": "With Driver",
+      "pickup_location": "Danao City",
+      "dropoff_location": "Naga City",
+      "pickup_date": "2026-11-05 08:00:00",
+      "return_date": "2026-11-08 08:00:00",
+      "rental_duration": 3,
+      "rental_status": "Completed",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-007",
+      "brand": "Nissan",
+      "model": "Navara",
+      "year": 2023,
+      "color": "Black",
+      "plate_number": "CEB-2222",
+      "vehicle_type": "Pickup",
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "seating_capacity": 5,
+      "mileage": "22,500 km",
+      "fuel_level": "Full",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 3000,
+      "rental_days": 3,
+      "base_rental_fee": 9000,
+      "insurance_fee": 500,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 10000,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-007",
+      "payment_method": "Maya",
+      "payment_reference": "TXN-123462711",
+      "amount_paid": 10000,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "ABC Insurance",
+      "policy_number": "POL-2026-007",
+      "coverage_type": "Comprehensive",
+      "coverage_amount": 500000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": "2026-11-08 08:00:00",
+      "return_location": "Naga City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 11,
+      "completed_rentals": 10,
+      "active_rentals": 0,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.6,
+      "customer_status": "Regular Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-007",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-008",
+      "name": "Patricia Tan",
+      "age": 29,
+      "gender": "Female",
+      "address": "Naga City, Philippines",
+      "contact_number": "09120096537",
+      "email": "patricia.tan@example.com",
+      "license_number": "N01-26-123575",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-008",
+      "booking_reference": "MED-2026-008",
+      "rental_type": "With Driver",
+      "pickup_location": "Naga City",
+      "dropoff_location": "Cebu City",
+      "pickup_date": "2026-11-06 08:00:00",
+      "return_date": "2026-11-10 08:00:00",
+      "rental_duration": 4,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-008",
+      "brand": "Hyundai",
+      "model": "Stargazer",
+      "year": 2024,
+      "color": "Gray",
+      "plate_number": "CEB-2259",
+      "vehicle_type": "MPV",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "23,750 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2600,
+      "rental_days": 4,
+      "base_rental_fee": 10400,
+      "insurance_fee": 750,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 11450,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-008",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "TXN-123463698",
+      "amount_paid": 5725,
+      "remaining_balance": 5725,
+      "payment_status": "Partially Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "XYZ Insurance",
+      "policy_number": "POL-2026-008",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Cebu City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 12,
+      "completed_rentals": 11,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.7,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-008",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-009",
+      "name": "Daniel Garcia",
+      "age": 30,
+      "gender": "Male",
+      "address": "Cebu City, Philippines",
+      "contact_number": "09120110328",
+      "email": "daniel.garcia@example.com",
+      "license_number": "N01-26-123592",
+      "license_type": "Non-Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-009",
+      "booking_reference": "MED-2026-009",
+      "rental_type": "Self-Drive",
+      "pickup_location": "Cebu City",
+      "dropoff_location": "Mactan, Cebu",
+      "pickup_date": "2026-11-07 08:00:00",
+      "return_date": "2026-11-12 08:00:00",
+      "rental_duration": 5,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-009",
+      "brand": "Toyota",
+      "model": "Innova",
+      "year": 2025,
+      "color": "Red",
+      "plate_number": "CEB-2296",
+      "vehicle_type": "MPV",
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "25,000 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2800,
+      "rental_days": 5,
+      "base_rental_fee": 14000,
+      "insurance_fee": 1000,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 500,
+      "total_amount": 15000,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-009",
+      "payment_method": "GCash",
+      "payment_reference": "TXN-123464685",
+      "amount_paid": 15000,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "Cebu Auto Insurance",
+      "policy_number": "POL-2026-009",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Good",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "Small scratch on door",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Mactan, Cebu",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 13,
+      "completed_rentals": 12,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.8,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-009",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-010",
+      "name": "Nicole Ramos",
+      "age": 31,
+      "gender": "Female",
+      "address": "Mactan, Cebu, Philippines",
+      "contact_number": "09120124119",
+      "email": "nicole.ramos@example.com",
+      "license_number": "N01-26-123609",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-010",
+      "booking_reference": "MED-2026-010",
+      "rental_type": "With Driver",
+      "pickup_location": "Mactan, Cebu",
+      "dropoff_location": "Lapu-Lapu City",
+      "pickup_date": "2026-11-05 08:00:00",
+      "return_date": "2026-11-11 08:00:00",
+      "rental_duration": 6,
+      "rental_status": "Completed",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-010",
+      "brand": "Kia",
+      "model": "Seltos",
+      "year": 2026,
+      "color": "Blue",
+      "plate_number": "CEB-2333",
+      "vehicle_type": "SUV",
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "seating_capacity": 7,
+      "mileage": "26,250 km",
+      "fuel_level": "Full",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2700,
+      "rental_days": 6,
+      "base_rental_fee": 16200,
+      "insurance_fee": 500,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 17000,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-010",
+      "payment_method": "Cash",
+      "payment_reference": "TXN-123465672",
+      "amount_paid": 17000,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "ABC Insurance",
+      "policy_number": "POL-2026-010",
+      "coverage_type": "Comprehensive",
+      "coverage_amount": 500000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": "2026-11-11 08:00:00",
+      "return_location": "Lapu-Lapu City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 14,
+      "completed_rentals": 13,
+      "active_rentals": 0,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.9,
+      "customer_status": "Regular Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-010",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-011",
+      "name": "Kevin Flores",
+      "age": 32,
+      "gender": "Male",
+      "address": "Lapu-Lapu City, Philippines",
+      "contact_number": "09120137910",
+      "email": "kevin.flores@example.com",
+      "license_number": "N01-26-123626",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-011",
+      "booking_reference": "MED-2026-011",
+      "rental_type": "With Driver",
+      "pickup_location": "Lapu-Lapu City",
+      "dropoff_location": "Mandaue City",
+      "pickup_date": "2026-11-06 08:00:00",
+      "return_date": "2026-11-08 08:00:00",
+      "rental_duration": 2,
+      "rental_status": "Cancelled",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-011",
+      "brand": "Honda",
+      "model": "BR-V",
+      "year": 2022,
+      "color": "Silver",
+      "plate_number": "CEB-2370",
+      "vehicle_type": "SUV",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "27,500 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2500,
+      "rental_days": 2,
+      "base_rental_fee": 5000,
+      "insurance_fee": 750,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 6250,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-011",
+      "payment_method": "Maya",
+      "payment_reference": "TXN-123466659",
+      "amount_paid": 0,
+      "remaining_balance": 6250,
+      "payment_status": "Unpaid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "XYZ Insurance",
+      "policy_number": "POL-2026-011",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Mandaue City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Cancelled"
+    },
+    "rental_summary": {
+      "total_rentals": 15,
+      "completed_rentals": 4,
+      "active_rentals": 0,
+      "cancelled_rentals": 1,
+      "customer_rating": 4,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-011",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Inactive"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-012",
+      "name": "Andrea Lopez",
+      "age": 33,
+      "gender": "Female",
+      "address": "Mandaue City, Philippines",
+      "contact_number": "09120151701",
+      "email": "andrea.lopez@example.com",
+      "license_number": "N01-26-123643",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-012",
+      "booking_reference": "MED-2026-012",
+      "rental_type": "With Driver",
+      "pickup_location": "Mandaue City",
+      "dropoff_location": "Talisay City",
+      "pickup_date": "2026-11-07 08:00:00",
+      "return_date": "2026-11-10 08:00:00",
+      "rental_duration": 3,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-012",
+      "brand": "Mitsubishi",
+      "model": "Mirage G4",
+      "year": 2023,
+      "color": "Black",
+      "plate_number": "CEB-2407",
+      "vehicle_type": "Sedan",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 5,
+      "mileage": "28,750 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 1700,
+      "rental_days": 3,
+      "base_rental_fee": 5100,
+      "insurance_fee": 1000,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 6400,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-012",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "TXN-123467646",
+      "amount_paid": 3200,
+      "remaining_balance": 3200,
+      "payment_status": "Partially Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "Cebu Auto Insurance",
+      "policy_number": "POL-2026-012",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Talisay City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 16,
+      "completed_rentals": 5,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.1,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-012",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-013",
+      "name": "Michael Torres",
+      "age": 34,
+      "gender": "Male",
+      "address": "Talisay City, Philippines",
+      "contact_number": "09120165492",
+      "email": "michael.torres@example.com",
+      "license_number": "N01-26-123660",
+      "license_type": "Non-Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-013",
+      "booking_reference": "MED-2026-013",
+      "rental_type": "Self-Drive",
+      "pickup_location": "Talisay City",
+      "dropoff_location": "Carcar City",
+      "pickup_date": "2026-11-05 08:00:00",
+      "return_date": "2026-11-09 08:00:00",
+      "rental_duration": 4,
+      "rental_status": "Completed",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-013",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "year": 2024,
+      "color": "Gray",
+      "plate_number": "CEB-2444",
+      "vehicle_type": "Pickup",
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "seating_capacity": 5,
+      "mileage": "30,000 km",
+      "fuel_level": "Full",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 3100,
+      "rental_days": 4,
+      "base_rental_fee": 12400,
+      "insurance_fee": 500,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 500,
+      "total_amount": 12900,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-013",
+      "payment_method": "GCash",
+      "payment_reference": "TXN-123468633",
+      "amount_paid": 12900,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "ABC Insurance",
+      "policy_number": "POL-2026-013",
+      "coverage_type": "Comprehensive",
+      "coverage_amount": 500000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Good",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "Small scratch on door",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": "2026-11-09 08:00:00",
+      "return_location": "Carcar City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 5,
+      "completed_rentals": 6,
+      "active_rentals": 0,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.2,
+      "customer_status": "Regular Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-013",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-014",
+      "name": "Camille Navarro",
+      "age": 35,
+      "gender": "Female",
+      "address": "Carcar City, Philippines",
+      "contact_number": "09120179283",
+      "email": "camille.navarro@example.com",
+      "license_number": "N01-26-123677",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-014",
+      "booking_reference": "MED-2026-014",
+      "rental_type": "With Driver",
+      "pickup_location": "Carcar City",
+      "dropoff_location": "Danao City",
+      "pickup_date": "2026-11-06 08:00:00",
+      "return_date": "2026-11-11 08:00:00",
+      "rental_duration": 5,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-014",
+      "brand": "Nissan",
+      "model": "Terra",
+      "year": 2025,
+      "color": "Red",
+      "plate_number": "CEB-2481",
+      "vehicle_type": "SUV",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "31,250 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 3400,
+      "rental_days": 5,
+      "base_rental_fee": 17000,
+      "insurance_fee": 750,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 18050,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-014",
+      "payment_method": "Cash",
+      "payment_reference": "TXN-123469620",
+      "amount_paid": 9025,
+      "remaining_balance": 9025,
+      "payment_status": "Partially Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "XYZ Insurance",
+      "policy_number": "POL-2026-014",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Danao City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 6,
+      "completed_rentals": 7,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.3,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-014",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-015",
+      "name": "Joshua Bautista",
+      "age": 36,
+      "gender": "Male",
+      "address": "Danao City, Philippines",
+      "contact_number": "09120193074",
+      "email": "joshua.bautista@example.com",
+      "license_number": "N01-26-123694",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-015",
+      "booking_reference": "MED-2026-015",
+      "rental_type": "With Driver",
+      "pickup_location": "Danao City",
+      "dropoff_location": "Naga City",
+      "pickup_date": "2026-11-07 08:00:00",
+      "return_date": "2026-11-13 08:00:00",
+      "rental_duration": 6,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-015",
+      "brand": "Hyundai",
+      "model": "Accent",
+      "year": 2026,
+      "color": "Blue",
+      "plate_number": "CEB-2518",
+      "vehicle_type": "Sedan",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 5,
+      "mileage": "32,500 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 1900,
+      "rental_days": 6,
+      "base_rental_fee": 11400,
+      "insurance_fee": 1000,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 12900,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-015",
+      "payment_method": "Maya",
+      "payment_reference": "TXN-123470607",
+      "amount_paid": 12900,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "Cebu Auto Insurance",
+      "policy_number": "POL-2026-015",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Naga City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 7,
+      "completed_rentals": 8,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.4,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-015",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-016",
+      "name": "Isabella Aquino",
+      "age": 37,
+      "gender": "Female",
+      "address": "Naga City, Philippines",
+      "contact_number": "09120206865",
+      "email": "isabella.aquino@example.com",
+      "license_number": "N01-26-123711",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-016",
+      "booking_reference": "MED-2026-016",
+      "rental_type": "With Driver",
+      "pickup_location": "Naga City",
+      "dropoff_location": "Cebu City",
+      "pickup_date": "2026-11-05 08:00:00",
+      "return_date": "2026-11-07 08:00:00",
+      "rental_duration": 2,
+      "rental_status": "Cancelled",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-016",
+      "brand": "Suzuki",
+      "model": "Swift",
+      "year": 2022,
+      "color": "Silver",
+      "plate_number": "CEB-2555",
+      "vehicle_type": "Hatchback",
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "seating_capacity": 5,
+      "mileage": "33,750 km",
+      "fuel_level": "Full",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2000,
+      "rental_days": 2,
+      "base_rental_fee": 4000,
+      "insurance_fee": 500,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 4800,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-016",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "TXN-123471594",
+      "amount_paid": 0,
+      "remaining_balance": 4800,
+      "payment_status": "Unpaid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "ABC Insurance",
+      "policy_number": "POL-2026-016",
+      "coverage_type": "Comprehensive",
+      "coverage_amount": 500000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Cebu City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Cancelled"
+    },
+    "rental_summary": {
+      "total_rentals": 8,
+      "completed_rentals": 9,
+      "active_rentals": 0,
+      "cancelled_rentals": 1,
+      "customer_rating": 4.5,
+      "customer_status": "Regular Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-016",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Inactive"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-017",
+      "name": "Patrick Villanueva",
+      "age": 38,
+      "gender": "Male",
+      "address": "Cebu City, Philippines",
+      "contact_number": "09120220656",
+      "email": "patrick.villanueva@example.com",
+      "license_number": "N01-26-123728",
+      "license_type": "Non-Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-017",
+      "booking_reference": "MED-2026-017",
+      "rental_type": "Self-Drive",
+      "pickup_location": "Cebu City",
+      "dropoff_location": "Mactan, Cebu",
+      "pickup_date": "2026-11-06 08:00:00",
+      "return_date": "2026-11-09 08:00:00",
+      "rental_duration": 3,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-017",
+      "brand": "Ford",
+      "model": "Ranger",
+      "year": 2023,
+      "color": "Black",
+      "plate_number": "CEB-2592",
+      "vehicle_type": "Pickup",
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 5,
+      "mileage": "35,000 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 3300,
+      "rental_days": 3,
+      "base_rental_fee": 9900,
+      "insurance_fee": 750,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 500,
+      "total_amount": 10650,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-017",
+      "payment_method": "GCash",
+      "payment_reference": "TXN-123472581",
+      "amount_paid": 10650,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "XYZ Insurance",
+      "policy_number": "POL-2026-017",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Good",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "Small scratch on door",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Mactan, Cebu",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 9,
+      "completed_rentals": 10,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.6,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-017",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-018",
+      "name": "Grace Castillo",
+      "age": 39,
+      "gender": "Female",
+      "address": "Mactan, Cebu, Philippines",
+      "contact_number": "09120234447",
+      "email": "grace.castillo@example.com",
+      "license_number": "N01-26-123745",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-018",
+      "booking_reference": "MED-2026-018",
+      "rental_type": "With Driver",
+      "pickup_location": "Mactan, Cebu",
+      "dropoff_location": "Lapu-Lapu City",
+      "pickup_date": "2026-11-07 08:00:00",
+      "return_date": "2026-11-11 08:00:00",
+      "rental_duration": 4,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-018",
+      "brand": "Toyota",
+      "model": "Raize",
+      "year": 2024,
+      "color": "Gray",
+      "plate_number": "CEB-2629",
+      "vehicle_type": "SUV",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "36,250 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2400,
+      "rental_days": 4,
+      "base_rental_fee": 9600,
+      "insurance_fee": 1000,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 10900,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-018",
+      "payment_method": "Cash",
+      "payment_reference": "TXN-123473568",
+      "amount_paid": 5450,
+      "remaining_balance": 5450,
+      "payment_status": "Partially Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "Cebu Auto Insurance",
+      "policy_number": "POL-2026-018",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Lapu-Lapu City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 10,
+      "completed_rentals": 11,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.7,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-018",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-019",
+      "name": "Ryan Mercado",
+      "age": 40,
+      "gender": "Male",
+      "address": "Lapu-Lapu City, Philippines",
+      "contact_number": "09120248238",
+      "email": "ryan.mercado@example.com",
+      "license_number": "N01-26-123762",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-019",
+      "booking_reference": "MED-2026-019",
+      "rental_type": "With Driver",
+      "pickup_location": "Lapu-Lapu City",
+      "dropoff_location": "Mandaue City",
+      "pickup_date": "2026-11-05 08:00:00",
+      "return_date": "2026-11-10 08:00:00",
+      "rental_duration": 5,
+      "rental_status": "Completed",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-019",
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2025,
+      "color": "Red",
+      "plate_number": "CEB-2666",
+      "vehicle_type": "Sedan",
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "seating_capacity": 5,
+      "mileage": "37,500 km",
+      "fuel_level": "Full",
+      "vehicle_status": "Available"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2900,
+      "rental_days": 5,
+      "base_rental_fee": 14500,
+      "insurance_fee": 500,
+      "delivery_fee": 500,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 15500,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-019",
+      "payment_method": "Maya",
+      "payment_reference": "TXN-123474555",
+      "amount_paid": 15500,
+      "remaining_balance": 0,
+      "payment_status": "Fully Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "ABC Insurance",
+      "policy_number": "POL-2026-019",
+      "coverage_type": "Comprehensive",
+      "coverage_amount": 500000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": "2026-11-10 08:00:00",
+      "return_location": "Mandaue City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 11,
+      "completed_rentals": 12,
+      "active_rentals": 0,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.8,
+      "customer_status": "Regular Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-019",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  },
+  {
+    "customer": {
+      "customer_id": "CUS-2026-020",
+      "name": "Elaine Fernandez",
+      "age": 41,
+      "gender": "Female",
+      "address": "Mandaue City, Philippines",
+      "contact_number": "09120262029",
+      "email": "elaine.fernandez@example.com",
+      "license_number": "N01-26-123779",
+      "license_type": "Professional",
+      "customer_status": "Verified"
+    },
+    "rental_information": {
+      "rental_id": "RNT-2026-020",
+      "booking_reference": "MED-2026-020",
+      "rental_type": "With Driver",
+      "pickup_location": "Mandaue City",
+      "dropoff_location": "Talisay City",
+      "pickup_date": "2026-11-06 08:00:00",
+      "return_date": "2026-11-12 08:00:00",
+      "rental_duration": 6,
+      "rental_status": "Ongoing",
+      "booking_date": "2026-11-01"
+    },
+    "vehicle": {
+      "vehicle_id": "VEH-020",
+      "brand": "Mitsubishi",
+      "model": "Xpander",
+      "year": 2026,
+      "color": "Blue",
+      "plate_number": "CEB-2703",
+      "vehicle_type": "MPV",
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "mileage": "38,750 km",
+      "fuel_level": "Half",
+      "vehicle_status": "Rented"
+    },
+    "rental_charges": {
+      "currency": "PHP",
+      "daily_rate": 2700,
+      "rental_days": 6,
+      "base_rental_fee": 16200,
+      "insurance_fee": 750,
+      "delivery_fee": 300,
+      "additional_charges": 0,
+      "discount": 0,
+      "total_amount": 17250,
+      "security_deposit": 5000
+    },
+    "payment_information": {
+      "payment_id": "PAY-2026-020",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "TXN-123475542",
+      "amount_paid": 8625,
+      "remaining_balance": 8625,
+      "payment_status": "Partially Paid",
+      "payment_date": "2026-11-01"
+    },
+    "insurance": {
+      "insurance_provider": "XYZ Insurance",
+      "policy_number": "POL-2026-020",
+      "coverage_type": "Third-Party",
+      "coverage_amount": 300000,
+      "insurance_status": "Active"
+    },
+    "vehicle_condition": {
+      "exterior_condition": "Excellent",
+      "interior_condition": "Excellent",
+      "engine_condition": "Excellent",
+      "existing_damage": "None",
+      "inspection_status": "Inspected"
+    },
+    "return_information": {
+      "actual_return_date": null,
+      "return_location": "Talisay City",
+      "fuel_return_requirement": "Full Tank",
+      "late_return_fee_per_hour": 300,
+      "return_status": "Not Yet Returned"
+    },
+    "rental_summary": {
+      "total_rentals": 12,
+      "completed_rentals": 13,
+      "active_rentals": 1,
+      "cancelled_rentals": 0,
+      "customer_rating": 4.9,
+      "customer_status": "New Customer"
+    },
+    "metadata": {
+      "rental_agreement": "AGR-2026-020",
+      "approved_by": "Medina Car Rental Administrator",
+      "created_at": "2026-11-07 10:24:18",
+      "updated_at": "2026-11-07 10:24:18",
+      "record_status": "Active"
+    }
+  }
+]
